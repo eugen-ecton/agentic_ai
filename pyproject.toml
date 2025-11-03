@@ -5,5 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "langchain-openai>=0.2.13",
     "openai==1.55.3",
+    "python-dotenv>=1.1.1",
 ]
